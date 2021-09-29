@@ -28,6 +28,5 @@ def draw_plot():
     plt.title('Rise in Sea Level')
     plt.legend()
     
-    # Save plot and return data for testing (DO NOT MODIFY)
+    # Save plot
     plt.savefig('sea_level_plot.png')
-    return plt.gca()
